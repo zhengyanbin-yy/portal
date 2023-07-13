@@ -14,7 +14,7 @@ import TabItem from '@theme/TabItem';
 
 **准备工作**
 
-事先我们执行如下执行生成一个 proto 文件及其 pb 文件。
+首先我们执行如下命令生成一个 proto 文件及其 pb 文件。
 
 ```bash
 # 创建 demo 服务目录
@@ -30,7 +30,7 @@ $ mkdir server && cd server
 # 新增配置文件
 $ mkdir etc && cd etc
 $ touch greet-server.yaml
-# 新增 client.go 文件
+# 新增 server.go 文件
 $ touch server.go
 ```
 
